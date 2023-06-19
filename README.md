@@ -8,7 +8,6 @@ Accessment in Nodejs, React, SQL
 
 * [Link to local API backend](#Link-to-local-api-backend)
 * [API Documentation on local](#API-documentation-on-local)
-* [Link to notification websocket](#Link-to-notification-websocket)
 * [Technologies Used](#technologies-used)
 * [Testing Tools](#testing-tools)
 * [Application Features](#application-features)
@@ -72,7 +71,8 @@ $ cd ./fullstack-sql/ts
 # Run the app (docker installation required)
 $ docker compose up --build -d
 
-app should now be running at http://localhost:8080/api/v1.
+frontend app should now be running at http://localhost:3000.
+backend app should now be running at http://localhost:8080/api/v1.
 find api docs: http://localhost:8080/api/v1/docs
 
 sample login credentials
